@@ -5,7 +5,7 @@ function TimeFunction()  {
 
     document.getElementById("time-span-id").innerHTML= CurrentTime;
 }
-    setInterval(TimeFunction, 1);
+    setInterval(TimeFunction, 1000);
 
 
     const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
