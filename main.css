@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=IBM+Plex+Sans:wght@300&family=Quicksand&family=Ubuntu:wght@700&display=swap');
+
+body {
+    height: 100vh;
+    background-color: #da5301;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    background-color: rgb(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .data-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .data-item span {
+    font-size: 17px;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .first {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .date-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .date-div {
+    width: 40%;
+    height: 30px;
+    background-color: #da5301;
+    border-radius: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+  }
+
+  .time-div {
+    width: 40%;
+    height: 30px;
+    background-color: #b40486;
+    border-radius: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+  }
+
+  .giturl-div{
+    height: 30px;
+    background-color: #b40486;
+    border-radius: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+  }
+
+  a {
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+  }
